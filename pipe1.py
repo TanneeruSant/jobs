@@ -7,6 +7,7 @@ from parameters import Parameters
 from datetime import datetime, timedelta
 from get_companies import collect_companies
 
+
 def get_jobs(source: str, search_term: str, location: str, results_wanted: int, country_indeed: str)->pd.DataFrame:
     """
     Collect the job from given source and returns to a dataframe.
