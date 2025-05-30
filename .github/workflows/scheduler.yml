@@ -1,10 +1,10 @@
 name: Module Runner
 
 on:
-    schedule:
+    #schedule:
         # run every 30 minutes
         #- cron: '0 20 */3 * *'
-    #push:
+    push:
         branches:
         - main
 
