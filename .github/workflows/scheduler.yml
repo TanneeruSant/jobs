@@ -5,8 +5,8 @@ on:
         # run every 30 minutes
         #- cron: '0 20 */3 * *'
     #push:
-        #branches:
-        #- main
+        branches:
+        - main
 
 jobs:
     run:
