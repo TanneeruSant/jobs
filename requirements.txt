@@ -8,7 +8,6 @@ numpy==1.24.2
 protobuf==3.20.3
 pydantic==2.8.2
 pydantic_core==2.20.1
-pyspark==3.5.0
 python-jobspy==1.1.57
 regex==2024.5.15
 requests==2.31.0
@@ -18,3 +17,5 @@ pyarrow==14.0.2
 geopy==2.4.1
 streamlit==1.42.0
 streamlit-dynamic-filters==0.1.9
+plotly==6.0.0
+streamlit-extras==0.5.5

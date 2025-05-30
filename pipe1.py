@@ -90,6 +90,10 @@ def collect_data(search_terms: List[str] , location: str, results_wanted: int, c
 
     # Save the data to a parquet file
     current_local_timestamp: str = datetime.now().strftime('%Y-%m-%d')
+    
+    if not os.path.exists(os.path.join(os.getcwd(), 'daily_data')):
+        os.makedirs(os.path.join(os.getcwd(), 'daily_data'))
+
     file_path = os.path.join(os.getcwd(), 'daily_data', current_local_timestamp + '.parquet')
     all_jobs.to_parquet(file_path)
 
