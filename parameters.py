@@ -9,7 +9,7 @@ class Parameters:
     GEMINI2_MODEL= "google/gemini-2.0-flash-exp:free"
 
     SEARCH_TERMS: list[str] = [
-        '"guidewire"',
+        'guidewire',
     ]
 
     STREAMLIT_FILTERS: list[str] = [ 
